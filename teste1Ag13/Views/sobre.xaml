@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="teste1Ag13.Views.sobre"
+             Title="sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource card}"
+             >
+    <VerticalStackLayout Margin="5">
+        <Button
+            Text="Voltar"
+            FontSize="20"
+            FontFamily="fonte"
+            TextColor="{StaticResource White}"
+            BackgroundColor="{StaticResource botao}"
+            Clicked="Button_Clicked"
+            HorizontalOptions="Start"
+            VerticalOptions="Start"/>
+     
+        <Frame Padding="20" Margin="10" BackgroundColor="{StaticResource fundo}">
+
+            <VerticalStackLayout Spacing="20">
+
+                <Label Text="Sobre Nós"
+                       FontSize="50"
+                       FontFamily="fonte"
+                       TextColor="{StaticResource letra}"
+                       HorizontalTextAlignment="Center"/>
+                <Frame Padding="15" BackgroundColor="{StaticResource card2}">
+                    <VerticalStackLayout Spacing="15" Padding="15" Margin="5">
+                        <Label Text="Bem-vindo ao nosso aplicativo de reservas de hotel! 
+                               Estamos dedicados a proporcionar a você uma experiência de hospedagem excepcional, 
+                               combinando conforto, conveniência e atendimento personalizado."
+                               />
+                        <Label Text="Nossa missão é tornar sua estadia inesquecível, 
+                               oferecendo acomodações de alta qualidade, 
+                               serviços excepcionais e uma equipe atenciosa pronta para atender todas as suas necessidades."
+                               />
+                        <Label Text="Agradecemos por escolher nosso aplicativo para suas reservas. 
+                               Estamos ansiosos para recebê-lo em nosso hotel e proporcionar uma experiência memorável."
+                               />
+
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Padding="20" BackgroundColor="{StaticResource card2}">
+
+                    <VerticalStackLayout Spacing="10">
+
+                        <Label Text="Sobre os desenvolvedores:"
+                               />
+                        <Label Text="Este aplicativo foi desenvolvido por um 
+                               grupo de estudantes dedicados do curso de Análise e 
+                               Desenvolvimento de Sistemas."
+                               />
+                        <Label Text="O trabalha junto desde 2021 e entrega projeto sem novela, 
+                               porque tempo é curto e a vida já é complicada demais." 
+                               />
+
+                    </VerticalStackLayout>
+                        
+                    
+                </Frame>
+
+            </VerticalStackLayout>
+            
+        </Frame>
+        
+
+
+    </VerticalStackLayout>
+</ContentPage>

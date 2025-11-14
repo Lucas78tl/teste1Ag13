@@ -7,7 +7,7 @@ namespace teste1Ag13
         public App()
         {
             InitializeComponent();
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new Views.contratacao());
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
